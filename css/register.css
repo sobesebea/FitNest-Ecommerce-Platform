@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+body {
+    background-color: #e8ded1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.register-container {
+    background-color: #fff9f3; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+    border: 1px solid #c5a880; 
+    margin: 20px 0;
+}
+
+h1 {
+    color: #5c4033; 
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #3d2a1e; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="file"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b08a66; 
+    border-radius: 5px;
+    background-color: #f3ece5;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="file"]:focus,
+form select:focus {
+    border-color: #8b5e3c; 
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #8b5e3c; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a76d4e; 
+}

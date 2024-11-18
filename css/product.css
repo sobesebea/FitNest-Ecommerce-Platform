@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; 
+}
+
+h2 {
+    color: #ff5733; 
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff; 
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745; 
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffc107; 
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+    border: none;
+}
+
+.btn {
+    margin-right: 10px; 
+}
+
+/* Table Styles */
+.table {
+    margin-top: 20px;
+    background-color: #ffffff; 
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.table th {
+    background-color: #ff5733; 
+    color: white; 
+}
+
+.table th, .table td {
+    padding: 12px; 
+    text-align: left; 
+}
+
+.table img {
+    border-radius: 0.25rem; 
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 0.5rem; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px; 
+    }
+}

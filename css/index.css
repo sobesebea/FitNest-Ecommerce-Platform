@@ -1,0 +1,129 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f4f8;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: flex-end;  
+    background-color: #ffffff;  
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+}
+
+.navbar-box {
+    background-color: #6f4c3e;  /* Box background color */
+    padding: 10px 20px;
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* Slight shadow for depth */
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: white;  /* White color for the links */
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.navbar-link:hover {
+    color: #f0e68c;  
+}
+
+/* Hero Section Styling */
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 48px; 
+    margin: 0;
+}
+
+h2 {
+    font-size: 32px; 
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px; 
+    margin-bottom: 20px;
+}
+
+/* Discover Button (Optional) */
+.discover-button {
+    background-color: #6f4c3e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Popular Services Section Styling */
+.popular-services {
+    padding: 20px;
+    text-align: center;
+}
+
+.popular-services h3 {
+    font-size: 28px;  
+    margin-bottom: 20px; 
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
+    gap: 15px; 
+}
+
+.service-item {
+    background-color: rgb(200, 230, 255); 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px; 
+    text-align: center; 
+    transition: transform 0.3s ease; 
+}
+
+.service-item:hover {
+    transform: scale(1.05); 
+}
+
+.service-item img {
+    width: 100px;  
+    height: 100px;
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.service-item h4 {
+    font-size: 18px; 
+    margin: 10px 0 5px 0; 
+}
+
+.service-item p {
+    font-size: 14px; 
+    color: #555; 
+}

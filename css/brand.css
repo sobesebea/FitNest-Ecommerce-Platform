@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa; /* Light background color for contrast */
+    font-family: Arial, sans-serif; /* Set a clean font */
+}
+
+/* Container */
+.container {
+    background-color: #fff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding around the content */
+}
+
+/* Table Styles */
+.table {
+    border-collapse: collapse; /* Collapsed borders */
+}
+
+/* Table Header */
+.table thead th {
+    background-color: #007bff; /* Primary color for the header */
+    color: white; /* White text color */
+    text-align: left; /* Align text to the left */
+}
+
+/* Table Rows */
+.table tbody tr:hover {
+    background-color: #e9ecef; /* Light gray on hover */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+    border: none; /* Remove border */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}
+
+/* Modal Styles */
+.modal-header {
+    background-color: #007bff; /* Primary color for modal header */
+    color: white; /* White text color */
+}
+
+.modal-body {
+    padding: 20px; /* Padding inside the modal */
+}
+
+.form-label {
+    font-weight: bold; /* Bold labels */
+}
+
+.btn-success {
+    background-color: #28a745; /* Bootstrap success color */
+    border: none; /* Remove border */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
